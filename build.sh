@@ -1,3 +1,5 @@
 #!/bin/bash
 
-docker build -t webserver-linuxtips-exec:1.0.0 .
+TAG=1.0.0
+
+docker build -t webserver-linuxtips-exec:${TAG} .
